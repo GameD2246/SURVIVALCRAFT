@@ -1,7 +1,52 @@
 body{
-    background-image: url(../..//img/background.jpg);
-    background-repeat: repeat-y;
+    margin: 0px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), /* escurece o backgroud */
+        url(../..//img/background.jpg);
+    background-position: center center; /* centraliza a imagem no centro da tela */
+    background-repeat: no-repeat; /* não repete a imagem */
+    background-size: auto; /* ocupa toda a tela, sem distorcer a imagem */
+    
+    
 }
 #corpo{
     color: #fff;
+}
+#Entrar {
+    background: none; 
+    text-align: left; 
+    color: rgb(255, 255, 255); 
+    line-height: 1.2; 
+    letter-spacing: 0px; 
+    font-size: 36px; 
+    font-family: Lato;
+}
+
+#doacao{
+    font-family: Lato ;
+    font-size: 20px;
+    background: none; 
+    text-align: left; 
+    color: rgb(153, 153, 153); 
+    line-height: 1.2; 
+    letter-spacing: 0px; 
+    font-size: 20px; 
+    font-family: Lato Light&quot;;
+}
+
+#visite{ 
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    background-color: #fff;
+    box-shadow: black 15px 15px 30px 0px; 
+    border-radius: 13px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid;
+    color: #000;
+}
+#picareta{
+    width: 300px;
+    height: 300px;
 }
